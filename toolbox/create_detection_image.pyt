@@ -19,7 +19,8 @@ class Toolbox(object):
 class Tool(object):
     def __init__(self):
         """
-
+        Combines the VV and VH polarities of two succeeding Sentinel-1 IW GRD granules into an RGB composite raster that may be trained
+        by a UNet Classifier
         """
         self.label = "CreateChangeDetectionImageMSSmall"
         self.description = "Tool to create exaggerated change detection image using MSSmall rescaling of difference " \
