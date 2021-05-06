@@ -25,7 +25,3 @@ This notebook contains several cells that will use the exported training data to
 #### toolbox/create_detection_image.pyt
 
 This is a toolbox that will output the appropriate change detection image to train the data or to classify pixels.  It requires the VV and VH polarity of two suceeding sentinel-1 SAR datasets, and optionally accepts a polygons mask as an input to limit the area of the output image. 
-
-#### model/unet_sar_model
-
-This folder contains a folder with all the content of the trained model.  The .emd or .dlpk files in the unet_sar_model folder may be used to classify pixels of the ouput from the .pyt tool.
