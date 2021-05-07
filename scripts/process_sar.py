@@ -50,7 +50,7 @@ def two_dig(num):
 def move_data():
 
     """convenience function to move SAR data from 'year' folder into 'orbit' folder based on 
-    filename of the foler"""
+    filename of the folder"""
 
     years = [2016,2017, 2019]
 
