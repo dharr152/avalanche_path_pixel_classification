@@ -7,7 +7,7 @@ This repo contains python scripts and jupyter notebooks to retrieve radiometrica
 This notebook contains code derived from earlier research (https://github.com/ESA-PhiLab/radiometric-slope-correction) to download Sentinel-1 SAr data from google earth engine.  The GEE python api is not compatible with default ArcGIS Pro Python libraries so this notebooks must be run from a fresh environment.  The necessary installs are contained within the notebook. The data derived from the code is made available through a users google account.  In order for all the scripts to run as written, this data must be manually downloaded and placed in a folder structure as documented in the scripts.  As written, this notebook will download up to 90 gb of data to a users google drive.  
 
 #### Step 2: scripts/process_sar.py
-The Sentinel-1 data is projected, and processed to generate change detection imaages to evaluate data for avalanche paths, and to create exaggerated change detection images that will used to train the model.  This script relies on ArcPy and must be run from an ArcGIS User with an authorized spatial analyst extension.  
+The Sentinel-1 data is projected, and processed to generate change detection images to evaluate data for avalanche paths, and to create exaggerated change detection images that will used to train the model.  This script relies on ArcPy and must be run from an ArcGIS User with an authorized spatial analyst extension.  
 
 #### Step 3: (manual digitization of avalanche masks)
 Using the empty feature classes generated in step 2 to create avalanche masks as polygon feature using the ArcGIs Pro editing environment.  
