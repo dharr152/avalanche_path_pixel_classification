@@ -24,7 +24,7 @@ This notebook contains several cells that will use the exported training data to
 
 #### toolbox/create_detection_image.pyt
 
-This is a toolbox that will output the appropriate change detection image to train the data or to classify pixels.  It requires the VV and VH polarity of two suceeding sentinel-1 SAR datasets, and optionally accepts a polygons mask as an input to limit the area of the output image. 
+This is a toolbox that will output the appropriate change detection image to train the data or to classify pixels.  It requires the VV and VH polarity of two succeeding Sentinel-1 SAR datasets, and optionally accepts a polygons mask as an input to limit the area of the output image. 
 
 #### AVY_UNET_5_6_21.pdf
 
