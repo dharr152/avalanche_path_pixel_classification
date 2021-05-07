@@ -169,7 +169,7 @@ class Tool(object):
             return cd_ras
 
         except Exception as e:
-            print(str(e))
+            arcpy.AddError(str(e))
 
         finally:
             if temp_dir:
