@@ -1,6 +1,6 @@
 # This scipt iterates through the folders of all the dates and 
 # orbits where SAR data was acquired to create three different change detection images as 
-# well as to ptoject all the rasters into a PCS (UTM 33 N).  The three change detection 
+# well as to project all the rasters into a PCS (UTM 33 N).  The three change detection 
 # images are three different RGB compositions that can be used to develop training data 
 # as well as visually assess if an avalanche has occurred. They are composed as follows:
 
